@@ -14,7 +14,7 @@ function solveEquation(a, b, c) {
 		arr.push(sqrt1, sqrt2);
 		console.log(arr);
 	} else if (discr < 0) {
-		return [];
+		arr.push();
 	}
 	return arr;
 
@@ -24,7 +24,7 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
 
 	function isNumber(percent, contribution, amount, countMonths) {
 		if (typeof percent, contribution, amount, countMonths != "string") return false;
-		return !isNaN(arguments) && !isNaN(parseFloat(arguments))
+		return !isNaN(percent, contribution, amount, countMonths) && !isNaN(parseFloat(percent, contribution, amount, countMonths))
 	}
 
 	let transformPercent = percent / 100;
